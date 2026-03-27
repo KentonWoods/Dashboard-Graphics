@@ -1,6 +1,6 @@
 # Tableau Dashboard Design Assets
 
-Free SVG and PNG backgrounds and icons for Tableau dashboards — six complete design themes, ready to drop in.
+Free SVG and PNG backgrounds, icons, and KPI indicators for Tableau dashboards — six complete design themes plus a universal indicator set, ready to drop in.
 
 ---
 
@@ -10,7 +10,7 @@ If you've ever wanted your Tableau dashboards to look like something other than 
 
 These assets come from my YouTube channel where I teach Tableau, dashboard design, and data storytelling. A big part of what I cover is how to use Figma to build proper background images for your dashboards — custom layouts, visual structure, consistent branding — all the stuff that separates a polished dashboard from one that just works.
 
-This repo is the companion to that. Six complete design themes, each with a background template and a matching icon set. Take them, use them, adapt them.
+This repo is the companion to that. Six complete design themes, each with a background template and a matching icon set. Plus a separate set of KPI indicator assets — arrows, status badges, card backgrounds, and more — that work across any theme. Take them, use them, adapt them.
 
 ---
 
@@ -21,6 +21,10 @@ Each theme has two things:
 1. **A dashboard background** — 1200×750px, structured as a real dashboard layout with panels, headers, and section zones. Every theme comes in both SVG and PNG. If you want to customize colors or layout, open the SVG in Figma, make your changes, and export. If you want to use it as-is, just grab the PNG and drop it straight into Tableau — no Figma required.
 
 2. **20 matching icons** — Also available as both SVG and PNG. Same style as the background so everything looks like it belongs together. If you need a different size or color, use the SVG in Figma. If the default works for you, the PNG is ready to go.
+
+There's also a standalone set that works across all six themes:
+
+3. **KPI indicators** — 20 assets covering the things you reach for on almost every dashboard: directional arrows in green and red, card backgrounds that signal positive, negative, warning, and neutral status, status badges for goal met/missed, trend pills, and small status dots. Same deal — SVG and PNG both included. These aren't tied to any specific theme color palette, so they fit wherever you need them.
 
 ---
 
@@ -46,6 +50,22 @@ Deep navy header, tinted left filter panel, traditional grid layout, no rounded 
 
 ---
 
+## KPI indicators
+
+These assets are designed to sit on top of your dashboard — the small things that make KPI cards actually communicate status rather than just display a number.
+
+**Directional arrows** — Up and down triangles in green and red, plus a flat gray dash for no change. Both up-green and down-green are included because direction alone doesn't tell you whether a change is good or bad. A cost going down is green. Revenue going down is red. You pick the right one for the context.
+
+**KPI card backgrounds** — Rounded rectangles with a colored left accent bar, sized to sit behind a KPI value. Positive (light green), negative (light red), warning (light amber), and neutral (light gray). Place one as a floating image in Tableau and layer your text marks on top.
+
+**Status badges** — Filled circles and a triangle with white symbols inside. Green checkmark, red X, amber warning triangle, and a gray neutral dash. Good for goal-met/missed indicators or any pass/fail status column.
+
+**Trend pills** — Pill-shaped badges with a directional arrow inside. Place the pill as a floating image and overlay a Tableau text mark with the actual percentage on top.
+
+**Status dots** — Small 16×16 circles in green, red, amber, and gray. Useful for traffic light status in tabular views or as inline indicators next to a label.
+
+---
+
 ## How to use these in Tableau
 
 **If you want to use a theme as-is:** grab the PNG from the backgrounds folder and you're ready to go. No Figma, no editing required.
@@ -65,7 +85,7 @@ If you haven't used background images in Tableau before, I cover the full proces
 
 ## File structure
 
-Each theme has its own folder. Inside, you'll find a `PNG` subfolder and an `SVG` subfolder. Both contain the dashboard background and the full icon set for that theme.
+Each theme has its own folder. Inside, you'll find a `PNG` subfolder and an `SVG` subfolder. Both contain the dashboard background and the full icon set for that theme. The KPI indicators follow the same structure in their own folder.
 
 ```
 blue-modern/
@@ -143,6 +163,50 @@ institutional-classic/
     [background + same 20 icons]
   SVG/
     [background + same 20 icons]
+
+kpi-indicators/
+  PNG/
+    arrow-up-green.png
+    arrow-down-green.png
+    arrow-up-red.png
+    arrow-down-red.png
+    no-change-gray.png
+    kpi-bg-positive.png
+    kpi-bg-negative.png
+    kpi-bg-neutral.png
+    kpi-bg-warning.png
+    badge-check-green.png
+    badge-x-red.png
+    badge-warning-amber.png
+    badge-neutral-gray.png
+    trend-up-green.png
+    trend-down-red.png
+    trend-flat-gray.png
+    dot-green.png
+    dot-red.png
+    dot-amber.png
+    dot-gray.png
+  SVG/
+    arrow-up-green.svg
+    arrow-down-green.svg
+    arrow-up-red.svg
+    arrow-down-red.svg
+    no-change-gray.svg
+    kpi-bg-positive.svg
+    kpi-bg-negative.svg
+    kpi-bg-neutral.svg
+    kpi-bg-warning.svg
+    badge-check-green.svg
+    badge-x-red.svg
+    badge-warning-amber.svg
+    badge-neutral-gray.svg
+    trend-up-green.svg
+    trend-down-red.svg
+    trend-flat-gray.svg
+    dot-green.svg
+    dot-red.svg
+    dot-amber.svg
+    dot-gray.svg
 ```
 
 ---
