@@ -1,0 +1,202 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <!-- Ambient glow beneath content panels — very diffuse -->
+  <filter id="shadow-panel" x="-6%" y="-4%" width="112%" height="116%">
+    <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#000000" flood-opacity="0.50"/>
+  </filter>
+
+  <!-- Tighter shadow for smaller panels -->
+  <filter id="shadow-sm" x="-8%" y="-6%" width="116%" height="124%">
+    <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+  </filter>
+
+  <!-- Radial glow behind active sidebar item -->
+  <radialGradient id="sidebar-glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#E8A94B" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#E8A94B" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Subtle center atmosphere gradient on main background -->
+  <radialGradient id="atmos" cx="60%" cy="55%" r="55%">
+    <stop offset="0%" stop-color="#1A1F2E" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#0F1218" stop-opacity="0"/>
+  </radialGradient>
+
+  <clipPath id="clip0">
+    <rect width="1200" height="750"/>
+  </clipPath>
+
+</defs>
+
+<g clip-path="url(#clip0)">
+
+  <!-- ═══════════════════════════════════════════
+       BACKGROUND
+  ═══════════════════════════════════════════ -->
+  <rect width="1200" height="750" fill="#0F1218"/>
+  <!-- Subtle atmospheric glow — center-right warmth, adds depth -->
+  <rect width="1200" height="750" fill="url(#atmos)"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       LEFT SIDEBAR   x=0, w=60, full height
+       Deepest tone — acts as app chrome
+  ═══════════════════════════════════════════ -->
+  <rect width="60" height="750" fill="#090C12"/>
+
+  <!-- Sidebar right-edge separator -->
+  <rect x="59" y="0" width="1" height="750" fill="#1A1F2E"/>
+
+  <!-- Logo mark at top — amber square -->
+  <rect x="16" y="16" width="28" height="28" rx="6" fill="#E8A94B"/>
+  <!-- Logo inner cutout detail -->
+  <rect x="22" y="22" width="10" height="10" rx="3" fill="#090C12" fill-opacity="0.35"/>
+
+  <!-- Sidebar divider below logo -->
+  <rect x="10" y="54" width="40" height="1" fill="#1A1F2E"/>
+
+  <!-- Nav icon 1 — ACTIVE state -->
+  <!-- Glow halo behind active icon -->
+  <rect x="4" y="66" width="52" height="38" rx="8" fill="url(#sidebar-glow)"/>
+  <!-- Active indicator: amber left bar -->
+  <rect x="0" y="72" width="3" height="26" rx="1.5" fill="#E8A94B"/>
+  <!-- Active icon tile -->
+  <rect x="16" y="72" width="28" height="26" rx="5" fill="#E8A94B" fill-opacity="0.14"/>
+  <!-- Icon mark (abstract lines, simulating a chart/home icon) -->
+  <rect x="21" y="78" width="18" height="2" rx="1" fill="#E8A94B" fill-opacity="0.80"/>
+  <rect x="21" y="82" width="13" height="2" rx="1" fill="#E8A94B" fill-opacity="0.55"/>
+  <rect x="21" y="86" width="18" height="2" rx="1" fill="#E8A94B" fill-opacity="0.80"/>
+
+  <!-- Nav icon 2 -->
+  <rect x="16" y="114" width="28" height="26" rx="5" fill="#1A1F2E"/>
+  <rect x="21" y="120" width="18" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="124" width="13" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="128" width="18" height="2" rx="1" fill="#2C3448"/>
+
+  <!-- Nav icon 3 -->
+  <rect x="16" y="156" width="28" height="26" rx="5" fill="#1A1F2E"/>
+  <rect x="21" y="162" width="18" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="166" width="13" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="170" width="18" height="2" rx="1" fill="#2C3448"/>
+
+  <!-- Nav icon 4 -->
+  <rect x="16" y="198" width="28" height="26" rx="5" fill="#1A1F2E"/>
+  <rect x="21" y="204" width="18" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="208" width="13" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="212" width="18" height="2" rx="1" fill="#2C3448"/>
+
+  <!-- Nav icon 5 -->
+  <rect x="16" y="240" width="28" height="26" rx="5" fill="#1A1F2E"/>
+  <rect x="21" y="246" width="18" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="250" width="13" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="254" width="18" height="2" rx="1" fill="#2C3448"/>
+
+  <!-- Bottom sidebar icon — settings -->
+  <rect x="16" y="700" width="28" height="26" rx="5" fill="#1A1F2E"/>
+  <rect x="21" y="706" width="18" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="710" width="13" height="2" rx="1" fill="#2C3448"/>
+  <rect x="21" y="714" width="18" height="2" rx="1" fill="#2C3448"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       HEADER   x=60, y=0, w=1140, h=52
+       Dark — one tone above background
+  ═══════════════════════════════════════════ -->
+  <rect x="60" y="0" width="1140" height="52" fill="#0B0E15"/>
+
+  <!-- Header bottom: hairline then amber accent -->
+  <rect x="60" y="51" width="1140" height="1" fill="#090C12"/>
+  <rect x="60" y="52" width="1140" height="2" fill="#E8A94B" fill-opacity="0.70"/>
+
+  <!-- Page title placeholder -->
+  <rect x="82" y="17" width="120" height="9" rx="3" fill="#242A3C"/>
+  <rect x="82" y="31" width="70" height="5" rx="2" fill="#1C2130"/>
+
+  <!-- Right-side header controls -->
+  <rect x="1096" y="15" width="22" height="22" rx="11" fill="#141820"/>
+  <rect x="1124" y="15" width="22" height="22" rx="11" fill="#141820"/>
+  <rect x="1155" y="13" width="1" height="26" fill="#1D2233"/>
+  <!-- Avatar -->
+  <rect x="1166" y="11" width="30" height="30" rx="15" fill="#1C1A0E"/>
+  <rect x="1166" y="11" width="30" height="30" rx="15" fill="none" stroke="#E8A94B" stroke-width="0.75" stroke-opacity="0.40"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       KPI METRIC STRIP   x=60, y=54, w=1140, h=58
+       ONE flat band — no cards, no elevation
+       4 zones divided by hairline verticals
+  ═══════════════════════════════════════════ -->
+  <rect x="60" y="54" width="1140" height="58" fill="#141820"/>
+
+  <!-- Dividers between the 4 KPI zones: at x=345, x=630, x=915 -->
+  <rect x="345" y="64" width="1" height="38" fill="#1D2233"/>
+  <rect x="630" y="64" width="1" height="38" fill="#1D2233"/>
+  <rect x="915" y="64" width="1" height="38" fill="#1D2233"/>
+
+  <!-- Amber accent line at very bottom of strip — subtle band separator -->
+  <rect x="60" y="111" width="1140" height="1" fill="#E8A94B" fill-opacity="0.12"/>
+
+  <!-- Bottom edge hairline -->
+  <rect x="60" y="112" width="1140" height="1" fill="#090C12"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       CONTENT AREA   y=114 onward
+       Row 1: three equal panels
+       Row 2: one wide left + one narrower right
+  ═══════════════════════════════════════════ -->
+
+  <!-- ── ROW 1  y=114, h=252  (three panels)  ──────── -->
+  <!-- Each panel: w=355, gaps=12. Total = 3×355 + 2×12 = 1089. Padded: x=82 to x=1171 = 1089 ✓ -->
+
+  <!-- Panel R1-A  x=82 -->
+  <rect x="82" y="114" width="355" height="252" rx="6" fill="#171B26" filter="url(#shadow-sm)"/>
+  <rect x="82" y="114" width="355" height="252" rx="6" fill="none" stroke="#1D2233" stroke-width="0.75"/>
+  <!-- Left-edge accent -->
+  <rect x="82" y="114" width="3" height="252" rx="1.5" fill="#E8A94B"/>
+  <!-- Panel header separator -->
+  <rect x="82" y="160" width="355" height="1" fill="#1D2233"/>
+
+  <!-- Panel R1-B  x=449 -->
+  <rect x="449" y="114" width="355" height="252" rx="6" fill="#171B26" filter="url(#shadow-sm)"/>
+  <rect x="449" y="114" width="355" height="252" rx="6" fill="none" stroke="#1D2233" stroke-width="0.75"/>
+  <rect x="449" y="114" width="3" height="252" rx="1.5" fill="#E8A94B"/>
+  <rect x="449" y="160" width="355" height="1" fill="#1D2233"/>
+
+  <!-- Panel R1-C  x=816 -->
+  <rect x="816" y="114" width="355" height="252" rx="6" fill="#171B26" filter="url(#shadow-sm)"/>
+  <rect x="816" y="114" width="355" height="252" rx="6" fill="none" stroke="#1D2233" stroke-width="0.75"/>
+  <rect x="816" y="114" width="3" height="252" rx="1.5" fill="#E8A94B"/>
+  <rect x="816" y="160" width="355" height="1" fill="#1D2233"/>
+
+
+  <!-- ── ROW 2  y=378, h=348  (wide left + narrow right)  ── -->
+  <!-- Left: w=668, Right: w=409. Gap=12. Total=668+12+409=1089 ✓ -->
+
+  <!-- Panel R2-Left  x=82 -->
+  <rect x="82" y="378" width="668" height="348" rx="6" fill="#171B26" filter="url(#shadow-panel)"/>
+  <rect x="82" y="378" width="668" height="348" rx="6" fill="none" stroke="#1D2233" stroke-width="0.75"/>
+  <rect x="82" y="378" width="3" height="348" rx="1.5" fill="#E8A94B"/>
+  <rect x="82" y="424" width="668" height="1" fill="#1D2233"/>
+
+  <!-- Panel R2-Right  x=762 -->
+  <rect x="762" y="378" width="409" height="348" rx="6" fill="#171B26" filter="url(#shadow-panel)"/>
+  <rect x="762" y="378" width="409" height="348" rx="6" fill="none" stroke="#1D2233" stroke-width="0.75"/>
+  <rect x="762" y="378" width="3" height="348" rx="1.5" fill="#E8A94B"/>
+  <rect x="762" y="424" width="409" height="1" fill="#1D2233"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER   y=738, h=12
+  ═══════════════════════════════════════════ -->
+  <rect y="738" width="1200" height="12" fill="#090C12"/>
+  <!-- Sidebar footer matches sidebar tone -->
+  <rect width="60" height="12" y="738" fill="#060810"/>
+  <!-- Amber footer pip aligned with content area -->
+  <rect x="82" y="742" width="36" height="4" rx="2" fill="#E8A94B" fill-opacity="0.22"/>
+
+</g>
+
+</svg>
