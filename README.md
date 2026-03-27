@@ -65,78 +65,84 @@ If you haven't used background images in Tableau before, I cover the full proces
 
 ## File structure
 
+Each theme has its own folder. Inside, you'll find a `PNG` subfolder and an `SVG` subfolder. Both contain the dashboard background and the full icon set for that theme.
+
 ```
-backgrounds/
-  blue-modern.svg
-  blue-modern.png
-  minimal-executive-modern.svg
-  minimal-executive-modern.png
-  dark-analytic-premium.svg
-  dark-analytic-premium.png
-  editorial-storytelling.svg
-  editorial-storytelling.png
-  soft-card-ui.svg
-  soft-card-ui.png
-  institutional-classic.svg
-  institutional-classic.png
-
-icons/
-  blue-modern/
-    back.svg
+blue-modern/
+  PNG/
+    blue-modern.png
     back.png
-    calendar.svg
     calendar.png
-    clear_filters.svg
     clear_filters.png
-    close.svg
     close.png
-    collapse.svg
     collapse.png
-    csv.svg
     csv.png
-    download.svg
     download.png
-    expand.svg
     expand.png
-    filter.svg
     filter.png
-    help.svg
     help.png
-    home.svg
     home.png
-    info.svg
     info.png
-    last_updated.svg
     last_updated.png
-    pdf.svg
     pdf.png
-    print.svg
     print.png
-    refresh.svg
     refresh.png
-    reset.svg
     reset.png
-    search.svg
     search.png
-    share.svg
     share.png
-    spreadsheet.svg
     spreadsheet.png
+  SVG/
+    blue-modern.svg
+    back.svg
+    calendar.svg
+    clear_filters.svg
+    close.svg
+    collapse.svg
+    csv.svg
+    download.svg
+    expand.svg
+    filter.svg
+    help.svg
+    home.svg
+    info.svg
+    last_updated.svg
+    pdf.svg
+    print.svg
+    refresh.svg
+    reset.svg
+    search.svg
+    share.svg
+    spreadsheet.svg
 
-  minimal-executive-modern/
-    [same 20 icons, SVG and PNG]
+minimal-executive-modern/
+  PNG/
+    [background + same 20 icons]
+  SVG/
+    [background + same 20 icons]
 
-  dark-analytic-premium/
-    [same 20 icons, SVG and PNG]
+dark-analytic-premium/
+  PNG/
+    [background + same 20 icons]
+  SVG/
+    [background + same 20 icons]
 
-  editorial-storytelling/
-    [same 20 icons, SVG and PNG]
+editorial-storytelling/
+  PNG/
+    [background + same 20 icons]
+  SVG/
+    [background + same 20 icons]
 
-  soft-card-ui/
-    [same 20 icons, SVG and PNG]
+soft-card-ui/
+  PNG/
+    [background + same 20 icons]
+  SVG/
+    [background + same 20 icons]
 
-  institutional-classic/
-    [same 20 icons, SVG and PNG]
+institutional-classic/
+  PNG/
+    [background + same 20 icons]
+  SVG/
+    [background + same 20 icons]
 ```
 
 ---
