@@ -1,0 +1,165 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!--
+  DATA-RICH INSTITUTIONAL CLASSIC
+  Right margin fix: all content now ends at x=1188 (12px right margin)
+  Content area: x=225 to x=1188 = 963px wide
+  KPI zones: 4 × ~241px with dividers at x=466, 707, 948
+  Lower panels: 2 × 477px with 9px gap, left x=225 right x=711
+-->
+
+<defs>
+  <clipPath id="clip0">
+    <rect width="1200" height="750"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#clip0)">
+
+  <!-- PAGE BACKGROUND -->
+  <rect width="1200" height="750" fill="#ECEEF3"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       HEADER BAND   y=0 to y=54
+  ═══════════════════════════════════════════ -->
+  <rect width="1200" height="54" fill="#1E3A5F"/>
+
+  <!-- Logo mark -->
+  <rect x="18" y="13" width="28" height="28" rx="3" fill="#FFFFFF" fill-opacity="0.15"/>
+  <rect x="22" y="17" width="20" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.55"/>
+  <rect x="22" y="24" width="14" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.35"/>
+  <rect x="22" y="31" width="20" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.55"/>
+
+  <!-- Right-side icon controls — pulled in from edge -->
+  <rect x="1088" y="15" width="24" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="1"/>
+  <rect x="1122" y="15" width="24" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="1"/>
+  <!-- Vertical rule -->
+  <rect x="1155" y="14" width="1" height="26" fill="#FFFFFF" fill-opacity="0.18"/>
+  <!-- Avatar -->
+  <rect x="1165" y="13" width="28" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Header bottom double rule -->
+  <rect y="54" width="1200" height="3" fill="#2B5FA6"/>
+  <rect y="57" width="1200" height="1" fill="#16304F"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       TOOLBAR STRIP   y=58 to y=94
+  ═══════════════════════════════════════════ -->
+  <rect y="58" width="1200" height="36" fill="#F0F3F8"/>
+
+  <!-- Filter pills — left aligned -->
+  <rect x="18"  y="68" width="74" height="18" rx="3" fill="#2B5FA6" fill-opacity="0.10" stroke="#2B5FA6" stroke-opacity="0.40" stroke-width="0.75"/>
+  <rect x="100" y="68" width="90" height="18" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="198" y="68" width="90" height="18" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="296" y="68" width="90" height="18" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="394" y="68" width="90" height="18" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+
+  <!-- Export buttons — right aligned, ending at x=1188 -->
+  <rect x="1068" y="67" width="56" height="20" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="1132" y="67" width="56" height="20" rx="3" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+
+  <!-- Toolbar bottom rule -->
+  <rect y="94" width="1200" height="1" fill="#C8D0DF"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       LEFT FILTER PANEL   x=0, y=95, w=224, h=643
+  ═══════════════════════════════════════════ -->
+  <rect x="0" y="95" width="224" height="643" fill="#E4E9F2"/>
+  <rect x="224" y="95" width="1" height="643" fill="#BDC5D5"/>
+
+  <!-- Filter section 1  y=95 to y=253 -->
+  <rect x="0" y="95"  width="224" height="32" fill="#D8E0EE"/>
+  <rect x="0" y="95"  width="3"   height="32" fill="#2B5FA6"/>
+  <rect x="14" y="141" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="177" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="213" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="0" y="253" width="224" height="1" fill="#BDC5D5"/>
+
+  <!-- Filter section 2  y=254 to y=450 -->
+  <rect x="0" y="254" width="224" height="32" fill="#D8E0EE"/>
+  <rect x="0" y="254" width="3"   height="32" fill="#2B5FA6"/>
+  <rect x="14" y="300" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="336" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="372" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="408" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="0" y="450" width="224" height="1" fill="#BDC5D5"/>
+
+  <!-- Filter section 3  y=451 to y=738 -->
+  <rect x="0" y="451" width="224" height="32" fill="#D8E0EE"/>
+  <rect x="0" y="451" width="3"   height="32" fill="#2B5FA6"/>
+  <rect x="14" y="497" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="533" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="569" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="605" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="641" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="14" y="677" width="196" height="28" rx="2" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       MAIN CONTENT AREA
+       x=225 to x=1188 (963px wide, 12px right margin)
+  ═══════════════════════════════════════════ -->
+
+  <!-- ── KPI STRIP   y=95 to y=185  ──
+       963px ÷ 4 zones = ~240-241px each
+       Dividers at x=466, x=707, x=948
+  ── -->
+  <rect x="225" y="95" width="963" height="90" fill="#FFFFFF"/>
+  <!-- Bottom rule -->
+  <rect x="225" y="185" width="963" height="1" fill="#C8D0DF"/>
+
+  <!-- Zone divider hairlines -->
+  <rect x="466" y="95" width="1" height="90" fill="#D8DDE8"/>
+  <rect x="707" y="95" width="1" height="90" fill="#D8DDE8"/>
+  <rect x="948" y="95" width="1" height="90" fill="#D8DDE8"/>
+
+  <!-- Accent top rule per zone -->
+  <!-- Zone 1: x=225 to x=466, w=241 -->
+  <rect x="225" y="95" width="241" height="3" fill="#2B5FA6" fill-opacity="0.60"/>
+  <!-- Zone 2: x=467 to x=707, w=240 -->
+  <rect x="467" y="95" width="240" height="3" fill="#2B5FA6" fill-opacity="0.60"/>
+  <!-- Zone 3: x=708 to x=948, w=240 -->
+  <rect x="708" y="95" width="240" height="3" fill="#2B5FA6" fill-opacity="0.60"/>
+  <!-- Zone 4: x=949 to x=1188, w=239 -->
+  <rect x="949" y="95" width="239" height="3" fill="#2B5FA6" fill-opacity="0.60"/>
+
+
+  <!-- ── PRIMARY PANEL   y=186 to y=476
+       Full content width: x=225, w=963
+  ── -->
+  <rect x="225" y="186" width="963" height="290" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <!-- Inner header separator -->
+  <rect x="225" y="224" width="963" height="1" fill="#D8DDE8"/>
+  <!-- Left accent rule -->
+  <rect x="225" y="186" width="3" height="38" fill="#2B5FA6" fill-opacity="0.55"/>
+
+
+  <!-- ── LOWER ROW   y=477 to y=738
+       Two equal panels: 477px each, 9px gap
+       Left:  x=225  to x=702
+       Right: x=711  to x=1188
+  ── -->
+  <!-- Left panel -->
+  <rect x="225" y="477" width="477" height="261" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="225" y="515" width="477" height="1" fill="#D8DDE8"/>
+  <rect x="225" y="477" width="3" height="38" fill="#2B5FA6" fill-opacity="0.55"/>
+
+  <!-- Right panel -->
+  <rect x="711" y="477" width="477" height="261" fill="#FFFFFF" stroke="#C8D0DF" stroke-width="0.75"/>
+  <rect x="711" y="515" width="477" height="1" fill="#D8DDE8"/>
+  <rect x="711" y="477" width="3" height="38" fill="#2B5FA6" fill-opacity="0.55"/>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER BAND   y=738 to y=750
+  ═══════════════════════════════════════════ -->
+  <rect y="738" width="1200" height="12" fill="#D4D9E4"/>
+  <rect y="738" width="1200" height="1" fill="#BDC5D5"/>
+  <rect x="0" y="738" width="224" height="12" fill="#D0D8E8"/>
+
+</g>
+
+</svg>

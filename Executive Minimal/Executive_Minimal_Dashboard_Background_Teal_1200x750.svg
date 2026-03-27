@@ -1,0 +1,139 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- Soft lift for KPI cards -->
+  <filter id="shadow-card" x="-8%" y="-10%" width="116%" height="132%">
+    <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#1A2B28" flood-opacity="0.07"/>
+  </filter>
+  <!-- Gentle lift for content panels -->
+  <filter id="shadow-panel" x="-3%" y="-2%" width="106%" height="108%">
+    <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1A2B28" flood-opacity="0.05"/>
+  </filter>
+  <clipPath id="clip0">
+    <rect width="1200" height="750"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#clip0)">
+
+  <!-- ─────────────────────────────────────────
+       BACKGROUND
+       Warm off-white — not cool blue-gray
+  ───────────────────────────────────────── -->
+  <rect width="1200" height="750" fill="#F2F1EE"/>
+
+
+  <!-- ─────────────────────────────────────────
+       HEADER   y=0 to 64
+       White bar, single teal accent line below
+  ───────────────────────────────────────── -->
+  <rect width="1200" height="64" fill="#FFFFFF"/>
+
+  <!-- Logo mark: rounded square, teal -->
+  <rect x="24" y="18" width="28" height="28" rx="6" fill="#3D7A6F"/>
+  <!-- Inner detail on logo -->
+  <rect x="30" y="24" width="10" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.20"/>
+
+  <!-- Wordmark placeholder: two stacked rounded lines -->
+  <rect x="62" y="23" width="88" height="7" rx="3" fill="#D9D5CE"/>
+  <rect x="62" y="36" width="56" height="5" rx="2" fill="#E5E2DC"/>
+
+  <!-- Right-side header chrome -->
+  <!-- Search pill -->
+  <rect x="1080" y="21" width="22" height="22" rx="11" fill="#F2F1EE"/>
+  <!-- Bell pill -->
+  <rect x="1110" y="21" width="22" height="22" rx="11" fill="#F2F1EE"/>
+  <!-- Thin vertical divider -->
+  <rect x="1142" y="19" width="1" height="26" fill="#DDD9D3"/>
+  <!-- Avatar circle — teal tinted -->
+  <rect x="1153" y="17" width="32" height="32" rx="16" fill="#E2EDE9"/>
+
+  <!-- Header bottom hairline -->
+  <rect y="63" width="1200" height="1" fill="#E0DDD8"/>
+  <!-- 2px teal accent line -->
+  <rect y="64" width="1200" height="2" fill="#3D7A6F"/>
+
+
+  <!-- ─────────────────────────────────────────
+       TOOLBAR   y=66 to 112
+       Barely-there warm gray band + filter pills
+  ───────────────────────────────────────── -->
+  <rect y="66" width="1200" height="46" fill="#F8F7F5"/>
+
+  <!-- Active filter pill — solid teal -->
+  <rect x="24" y="80" width="64" height="20" rx="10" fill="#3D7A6F"/>
+
+  <!-- Inactive pills — white with warm border -->
+  <rect x="96"  y="80" width="86" height="20" rx="10" fill="#FFFFFF" stroke="#D8D4CE" stroke-width="0.75"/>
+  <rect x="190" y="80" width="86" height="20" rx="10" fill="#FFFFFF" stroke="#D8D4CE" stroke-width="0.75"/>
+  <rect x="284" y="80" width="86" height="20" rx="10" fill="#FFFFFF" stroke="#D8D4CE" stroke-width="0.75"/>
+  <rect x="378" y="80" width="86" height="20" rx="10" fill="#FFFFFF" stroke="#D8D4CE" stroke-width="0.75"/>
+
+  <!-- Date range selector (right side) -->
+  <rect x="940" y="77" width="170" height="26" rx="5" fill="#FFFFFF" stroke="#D8D4CE" stroke-width="0.75"/>
+  <!-- Calendar icon -->
+  <rect x="954" y="84" width="11" height="11" rx="2" fill="#B5B0A8"/>
+  <!-- Date text line -->
+  <rect x="972" y="88" width="82" height="5" rx="2" fill="#D4D0C8"/>
+  <!-- Chevron dot -->
+  <rect x="1088" y="89" width="8" height="5" rx="1" fill="#B5B0A8"/>
+
+  <!-- Export button (ghost, teal border) -->
+  <rect x="1122" y="77" width="54" height="26" rx="5" fill="#FFFFFF" stroke="#3D7A6F" stroke-opacity="0.35" stroke-width="0.75"/>
+
+  <!-- Toolbar bottom hairline -->
+  <rect y="112" width="1200" height="1" fill="#E0DDD8"/>
+
+
+  <!-- ─────────────────────────────────────────
+       KPI CARDS   y=128 to 234
+       Clean white shells, teal accent strip,
+       drop shadow — nothing inside
+  ───────────────────────────────────────── -->
+
+  <!-- Card 1  x=24 -->
+  <rect x="24" y="128" width="276" height="106" rx="7" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="24" y="128" width="276" height="3" rx="1.5" fill="#3D7A6F"/>
+
+  <!-- Card 2  x=316 -->
+  <rect x="316" y="128" width="276" height="106" rx="7" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="316" y="128" width="276" height="3" rx="1.5" fill="#3D7A6F"/>
+
+  <!-- Card 3  x=608 -->
+  <rect x="608" y="128" width="276" height="106" rx="7" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="608" y="128" width="276" height="3" rx="1.5" fill="#3D7A6F"/>
+
+  <!-- Card 4  x=900 -->
+  <rect x="900" y="128" width="276" height="106" rx="7" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="900" y="128" width="276" height="3" rx="1.5" fill="#3D7A6F"/>
+
+
+  <!-- ─────────────────────────────────────────
+       CONTENT PANELS   y=250 onward
+       White containers with shadow — empty interiors
+       for Tableau charts to fill
+  ───────────────────────────────────────── -->
+
+  <!-- Large left panel  x=24, y=250, w=784, h=474 -->
+  <rect x="24" y="250" width="784" height="474" rx="7" fill="#FFFFFF" filter="url(#shadow-panel)"/>
+  <!-- Panel header separator line only — keeps a clear title zone -->
+  <rect x="24" y="298" width="784" height="1" fill="#EEEBE6"/>
+
+  <!-- Top-right panel  x=824, y=250, w=352, h=228 -->
+  <rect x="824" y="250" width="352" height="228" rx="7" fill="#FFFFFF" filter="url(#shadow-panel)"/>
+  <rect x="824" y="298" width="352" height="1" fill="#EEEBE6"/>
+
+  <!-- Bottom-right panel  x=824, y=486, w=352, h=238 -->
+  <rect x="824" y="486" width="352" height="238" rx="7" fill="#FFFFFF" filter="url(#shadow-panel)"/>
+  <rect x="824" y="534" width="352" height="1" fill="#EEEBE6"/>
+
+
+  <!-- ─────────────────────────────────────────
+       FOOTER   y=738 to 750
+  ───────────────────────────────────────── -->
+  <rect y="738" width="1200" height="12" fill="#EAE8E4"/>
+  <!-- Subtle teal left accent -->
+  <rect x="24" y="742" width="36" height="4" rx="2" fill="#3D7A6F" fill-opacity="0.22"/>
+
+</g>
+</svg>
