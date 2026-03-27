@@ -156,7 +156,7 @@ If you want to go deeper on Tableau design, dashboard UX, or data storytelling, 
 
 New videos on a regular schedule. No fluff, no clickbait — just practical stuff for people who take their work seriously.
 
-**[Subscribe on YouTube →](https://www.youtube.com)**
+**[Subscribe on YouTube →](https://www.youtube.com/@WoodsAnalytics)**
 
 ---
 
