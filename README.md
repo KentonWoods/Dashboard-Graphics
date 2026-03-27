@@ -1,7 +1,6 @@
-[README.md](https://github.com/user-attachments/files/26295747/README.md)
 # Tableau Dashboard Design Assets
 
-Free SVG backgrounds and icons for Tableau dashboards — six complete design themes, ready to drop in.
+Free SVG and PNG backgrounds and icons for Tableau dashboards — six complete design themes, ready to drop in.
 
 ---
 
@@ -19,9 +18,9 @@ This repo is the companion to that. Six complete design themes, each with a back
 
 Each theme has two things:
 
-1. **A dashboard background SVG** — 1200×750px, structured as a real dashboard layout with panels, headers, and section zones. Open it in Figma, swap colors to match your brand, export as PNG, and use it as the background image in Tableau.
+1. **A dashboard background** — 1200×750px, structured as a real dashboard layout with panels, headers, and section zones. Every theme comes in both SVG and PNG. If you want to customize colors or layout, open the SVG in Figma, make your changes, and export. If you want to use it as-is, just grab the PNG and drop it straight into Tableau — no Figma required.
 
-2. **20 matching icons** — Also SVGs. Same style as the background so everything looks like it belongs together. Drop them into Figma, resize, export, and place them in Tableau as image objects.
+2. **20 matching icons** — Also available as both SVG and PNG. Same style as the background so everything looks like it belongs together. If you need a different size or color, use the SVG in Figma. If the default works for you, the PNG is ready to go.
 
 ---
 
@@ -49,15 +48,16 @@ Deep navy header, tinted left filter panel, traditional grid layout, no rounded 
 
 ## How to use these in Tableau
 
-The workflow I use:
+**If you want to use a theme as-is:** grab the PNG from the backgrounds folder and you're ready to go. No Figma, no editing required.
 
-1. Open the SVG in Figma
-2. Adjust colors, fonts, or layout to fit your project
-3. Export as PNG at 2x resolution
-4. In Tableau, go to **Format → Shading → Worksheet** and set the image as the background, or use a floating image object that covers the full dashboard canvas
-5. Build your sheets on top, positioning them to land inside the panel zones
+**If you want to customize first:** open the SVG in Figma, swap colors or adjust the layout to fit your project, then export as PNG at 2x resolution.
 
-For the icons, the same idea — open in Figma, resize to whatever you need, export as PNG, place as floating image objects in Tableau.
+Either way, the Tableau workflow is the same:
+
+1. In Tableau, go to **Format → Shading → Worksheet** and set the PNG as the background, or use a floating image object that covers the full dashboard canvas
+2. Build your sheets on top, positioning them to land inside the panel zones
+
+For icons, same idea — use the PNG if the default style works, or open the SVG in Figma to resize or recolor before exporting.
 
 If you haven't used background images in Tableau before, I cover the full process on the channel.
 
@@ -68,77 +68,84 @@ If you haven't used background images in Tableau before, I cover the full proces
 ```
 backgrounds/
   blue-modern.svg
+  blue-modern.png
   minimal-executive-modern.svg
+  minimal-executive-modern.png
   dark-analytic-premium.svg
+  dark-analytic-premium.png
   editorial-storytelling.svg
+  editorial-storytelling.png
   soft-card-ui.svg
+  soft-card-ui.png
   institutional-classic.svg
+  institutional-classic.png
 
 icons/
   blue-modern/
     back.svg
+    back.png
     calendar.svg
+    calendar.png
     clear_filters.svg
+    clear_filters.png
     close.svg
+    close.png
     collapse.svg
+    collapse.png
     csv.svg
+    csv.png
     download.svg
+    download.png
     expand.svg
+    expand.png
     filter.svg
+    filter.png
     help.svg
+    help.png
     home.svg
+    home.png
     info.svg
+    info.png
     last_updated.svg
+    last_updated.png
     pdf.svg
+    pdf.png
     print.svg
+    print.png
     refresh.svg
+    refresh.png
     reset.svg
+    reset.png
     search.svg
+    search.png
     share.svg
+    share.png
     spreadsheet.svg
+    spreadsheet.png
 
   minimal-executive-modern/
-    back.svg
-    calendar.svg
-    clear_filters.svg
-    close.svg
-    collapse.svg
-    csv.svg
-    download.svg
-    expand.svg
-    filter.svg
-    help.svg
-    home.svg
-    info.svg
-    last_updated.svg
-    pdf.svg
-    print.svg
-    refresh.svg
-    reset.svg
-    search.svg
-    share.svg
-    spreadsheet.svg
+    [same 20 icons, SVG and PNG]
 
   dark-analytic-premium/
-    [same 20 icons]
+    [same 20 icons, SVG and PNG]
 
   editorial-storytelling/
-    [same 20 icons]
+    [same 20 icons, SVG and PNG]
 
   soft-card-ui/
-    [same 20 icons]
+    [same 20 icons, SVG and PNG]
 
   institutional-classic/
-    [same 20 icons]
+    [same 20 icons, SVG and PNG]
 ```
 
 ---
 
 ## A note on colors and branding
 
-Every background here uses a placeholder color scheme that fits the theme. Before you use one on a real project, you'll almost certainly want to pull it into Figma and swap the accent color to match your organization's brand. The structure does the heavy lifting — the colors are easy to change.
+Every background here uses a placeholder color scheme that fits the theme. If you want to customize it, pull the SVG into Figma and swap the accent color to match your organization's brand. The structure does the heavy lifting — the colors are easy to change.
 
-The icon stroke colors are also set to match each theme's accent. If you change the accent color in the background, just do a global find-and-replace on the hex value in the icon SVGs and they'll update instantly.
+The icon stroke colors are set to match each theme's accent. If you change the accent color in the background, just do a global find-and-replace on the hex value in the icon SVGs and they'll update instantly. Or if you're working from the PNGs and need a color change, swap back to the SVG for that step.
 
 ---
 
@@ -160,4 +167,4 @@ New videos on a regular schedule. No fluff, no clickbait — just practical stuf
 
 ---
 
-*Questions, issues, or suggestions — open an issue or drop a comment on the channel.*
+*Questions, issues, or suggestions — open an issue or email me at woodsdataanalytics@gmail.com.*
