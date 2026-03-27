@@ -174,3 +174,5 @@ New videos on a regular schedule. No fluff, no clickbait — just practical stuf
 ---
 
 *Questions, issues, or suggestions — open an issue or email me at woodsdataanalytics@gmail.com.*
+
+*Connect on LinkedIn: [linkedin.com/in/kentonwoods](https://www.linkedin.com/in/kentonwoods/)*
